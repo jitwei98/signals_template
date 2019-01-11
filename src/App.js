@@ -3,7 +3,8 @@ import './App.css';
 import BootstrapNavbar from './Navbar.js';
 // import BootstrapPagination from './Pagination.js';
 import Example from './Pagination';
-import Equations from './Equations';
+// import Equations from './Equations';
+import KatexEquation from './KatexEquation';
 
 class App extends Component {
   constructor(props) {
@@ -41,7 +42,7 @@ class App extends Component {
     return (
       <div className="App">
         <BootstrapNavbar />
-        <Equations />
+        <KatexEquation />
 
         <div className="container">
           <div className="text-center">
