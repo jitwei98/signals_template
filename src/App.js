@@ -3,6 +3,7 @@ import './App.css';
 import BootstrapNavbar from './Navbar.js';
 // import BootstrapPagination from './Pagination.js';
 import Example from './Pagination';
+import Equations from './Equations';
 
 class App extends Component {
   constructor(props) {
@@ -40,7 +41,8 @@ class App extends Component {
     return (
       <div className="App">
         <BootstrapNavbar />
-        
+        <Equations />
+
         <div className="container">
           <div className="text-center">
             <h1>Pagination Example</h1>
