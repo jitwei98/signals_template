@@ -15,7 +15,7 @@ class Equations extends Component {
       <MathJax.Provider>
           <div>
               This is an inline math formula: <MathJax.Node inline formula={'a = b'} />
-              And a block one:
+              <br />And a block one:
 
               <MathJax.Node formula={tex} />
           </div>
