@@ -45,7 +45,7 @@ class App extends Component {
         <KatexEquation />
 
         <div className="container">
-          <div className="text-center">
+{/*          <div className="text-center">
             <h1>Pagination Example</h1>
             {
               this.state.pageOfItems.map(item => 
@@ -53,7 +53,7 @@ class App extends Component {
               )
             }
             <Example items={this.state.exampleItems} onChangePage={this.onChangePage} />
-          </div>
+          </div> */}
         </div>
       </div>
     );
