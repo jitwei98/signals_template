@@ -1,6 +1,9 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+
+import './Navbar.css';
+
 class BootstrapNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -18,7 +21,7 @@ class BootstrapNavbar extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="navbar-container">
         <Navbar color="danger" dark>
           <NavbarBrand href="/" className="mr-auto">CG2023 Signals and System</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
