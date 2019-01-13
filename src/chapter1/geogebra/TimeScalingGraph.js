@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
 import { Row, Col,Button } from 'reactstrap';
-import Slider from './Slider';
 import {NavLink} from "react-router-dom";
 class TimeScalingGraph extends Component {
     constructor(props){
@@ -54,9 +53,6 @@ class TimeScalingGraph extends Component {
         return(
             <div>
                 <div id='ggb'></div>
-                <Row>
-                    <Slider sliderSetter = {this.sliderSetter} name="alpha"/>
-                </Row>
                 <Row>
                     <NavLink activeStyle={{ color: 'red' }} to = '/chapter1/lecture'>Lecture</NavLink>
                 </Row>

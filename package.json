@@ -11,6 +11,7 @@
     "rc-slider": "^8.6.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-katex": "^2.0.2",
     "react-latex": "^1.2.0",
     "react-mathjax": "^1.0.1",
     "react-router-dom": "^4.3.1",
