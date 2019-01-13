@@ -6,7 +6,7 @@ import Example from './Pagination';
 // import Equations from './Equations';
 import KatexEquation from './KatexEquation';
 
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Chapter1 from "./chapter1/Chapter1";
 import Jit from "./Jit"
 import Th from './Th';
@@ -18,10 +18,10 @@ class App extends Component {
           <div className="App">
             <BootstrapNavbar />
             <div className="container">
-              <switch>
+              <Switch>
                 <Route path='/jit' component={Jit}/>
                 <Route path='/TH' component={Th}/>
-              </switch>
+              </Switch>
               {/*<Route path='/chapter1' component={Chapter1} />*/}
             </div>
         
