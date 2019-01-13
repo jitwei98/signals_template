@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import Home from './Home';
+import SideNav from './SideNav';
 
 class Jit extends Component {
     // constructor(props) {
@@ -50,10 +51,10 @@ class Jit extends Component {
     render() {
         return (
             <div>
-{/*                <switch>
-                    <Route exact path="/" component={Home}/>
-                </switch>*/}
-                <Home />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/jit/sidenav" component={SideNav} />
+                </Switch>
             </div>
         );
     }
