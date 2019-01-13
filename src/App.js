@@ -6,6 +6,9 @@ import Example from './Pagination';
 // import Equations from './Equations';
 import KatexEquation from './KatexEquation';
 
+import { Route, BrowserRouter } from 'react-router-dom';
+import Chapter1 from "./chapter1/Chapter1";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -40,22 +43,27 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <BootstrapNavbar />
-        <KatexEquation />
+      <BrowserRouter>
+          <div className="App">
+            <BootstrapNavbar />
+            <div className="container">
+              <Route path='/chapter1' component={Chapter1} />
+            </div>
+        
 
-        <div className="container">
-{/*          <div className="text-center">
-            <h1>Pagination Example</h1>
-            {
-              this.state.pageOfItems.map(item => 
-                <div key={item.id}>{item.name}</div>
-              )
-            }
-            <Example items={this.state.exampleItems} onChangePage={this.onChangePage} />
-          </div> */}
-        </div>
-      </div>
+       { /*<div className="container">
+                 <div className="text-center">
+                   <h1>Pagination Example</h1>
+                   {
+                     this.state.pageOfItems.map(item => 
+                       <div key={item.id}>{item.name}</div>
+                     )
+                   }
+                   <Example items={this.state.exampleItems} onChangePage={this.onChangePage} />
+                 </div>
+               </div>*/}
+           </div>
+      </BrowserRouter>
     );
   }
 }
