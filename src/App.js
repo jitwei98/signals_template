@@ -22,7 +22,6 @@ class App extends Component {
                 <Route path='/jit' component={Jit}/>
                 <Route path='/TH' component={Th}/>
               </Switch>
-              {/*<Route path='/chapter1' component={Chapter1} />*/}
             </div>
         
 

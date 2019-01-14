@@ -7,10 +7,9 @@ class Chapter1 extends Component{
     render() {
         return (
             <div>
-                <div>hello from</div>
                 <switch>
-                    <Route path='/chapter1/lecture' component={TimeScalingContent} />
-                    <Route path='/chapter1/geogebra' component={TimeScalingGraph} />
+                    <Route path='/TH/chapter1/lecture' component={TimeScalingContent} />
+                    <Route path='/TH/chapter1/geogebra' component={TimeScalingGraph} />
                 </switch>
             </div>
         );
