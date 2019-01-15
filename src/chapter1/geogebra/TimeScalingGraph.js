@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
-import { Row, Col,Button } from 'reactstrap';
+import { Row } from 'reactstrap';
 import {NavLink} from "react-router-dom";
 class TimeScalingGraph extends Component {
     constructor(props){

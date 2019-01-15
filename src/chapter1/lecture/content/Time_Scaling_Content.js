@@ -1,32 +1,29 @@
-import React from 'react';
-import './Time_Scaling_Content.css'
-import {InlineTex} from 'react-tex';
+import React, {Component} from 'react';
 import {Button, Row} from "reactstrap";
 import {NavLink} from "react-router-dom";
-import CarouselItem1 from "./CarouselItems/CarouselItem1/CarouselItem1"
-import CarouselItem2 from "./CarouselItems/CarouselItem2/CarouselItem2"
-import CarouselItem3 from "./CarouselItems/CarouselItem3/CarouselItem3"
-import CarouselControlButton from './CarouselItems/CarouselControlButton'
-const TimeScalingContent = () => {
-    return(
+import TimeScaling from "./CarouselItems/CarouselItem1/TimeScaling"
+import TimeReversal from "./CarouselItems/CarouselItem2/TimeReversal"
+import TimeShifting from "./CarouselItems/CarouselItem3/TimeShifting"
+import { Carousel } from "react-responsive-carousel";
+import './Time_Scaling_Content.css'
+export default () => (
+    <div>
+    <Carousel showThumbs={false} showArrows={true} style={{backgroundColor:'white'}} >
         <div>
-            <Row>
-                <div id="lectuer" className="carousel slide col" data-ride="carousel">
-                    <div className="carousel-inner">
-                        <CarouselItem1/>
-                        <CarouselItem2/>
-                        <CarouselItem3/>
-                    </div>
-                    <CarouselControlButton/>
-                </div>
-            </Row>
-            <Button>
-                <Row>
-                        <NavLink style={{ color: 'white' }} to = '/chapter1/geogebra'>Playground</NavLink>
-                </Row>
-            </Button>
+            <TimeScaling/>
         </div>
-    );
-}
+        <div>
+            <TimeReversal/>
+        </div>
+        <div>
+            <TimeShifting/>
+        </div>
+    </Carousel>
+    <Button>
+        <Row>
+            <NavLink style={{color: 'white'}} to='/TH/chapter1/geogebra'>Playground</NavLink>
+        </Row>
+    </Button>
+    </div>
 
-export default TimeScalingContent;
+);

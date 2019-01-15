@@ -7,6 +7,8 @@ import Example from './Pagination';
 import KatexEquation from './KatexEquation';
 
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { render } from "react-dom";
+
 import Chapter1 from "./chapter1/Chapter1";
 import Jit from "./Jit"
 import Th from './Th';
