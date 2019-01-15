@@ -4,6 +4,9 @@
 .carousel .control-dots .dot{
     background: rgb(0, 0, 0);
 }
+.carousel{
+    height: 600px;
+}
 #Playground{
     height:600px;
 }

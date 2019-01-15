@@ -19,10 +19,8 @@ export default () => (
             <TimeShifting/>
         </div>
     </Carousel>
-    <Button>
-        <Row>
+    <Button color="primary" block>
             <NavLink style={{color: 'white'}} to='/TH/chapter1/geogebra'>Playground</NavLink>
-        </Row>
     </Button>
     </div>
 
