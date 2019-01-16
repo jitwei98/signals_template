@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f9df56-4483-478b-8068-89379b82aefe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/Formula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/IntegrationFormula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/TrigoFormula.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Th.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Chapter1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/Chapter1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,21 +25,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="119">
+              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#235#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
+        <entry file="file://$PROJECT_DIR$/src/Th.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="136">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="50" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -55,25 +71,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js">
+        <entry file="file://$PROJECT_DIR$/src/formula/IntegrationFormula.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="11" column="24" lean-forward="true" selection-end-line="35" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js">
+        <entry file="file://$PROJECT_DIR$/src/formula/TrigoFormula.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -107,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/Navbar.js" />
         <option value="$PROJECT_DIR$/src/Jit.js" />
         <option value="$PROJECT_DIR$/src/th.js" />
-        <option value="$PROJECT_DIR$/src/Th.js" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/CaourselItem1.js" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton/CarouselPrevButton.js" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton/CarouselNextButton.js" />
@@ -117,8 +126,6 @@
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem2/CarouselItem2.js" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/CarouselItem3.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/chapter1/Chapter1.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js" />
@@ -132,6 +139,14 @@
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" />
         <option value="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Th.js" />
+        <option value="$PROJECT_DIR$/src/chapter1/Chapter1.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter1/IntegrationFormula.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" />
+        <option value="$PROJECT_DIR$/src/formula/IntegrationFormula.js" />
+        <option value="$PROJECT_DIR$/src/formula/Formula.js" />
+        <option value="$PROJECT_DIR$/src/formula/TrigoFormula.js" />
       </list>
     </option>
   </component>
@@ -145,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,19 +181,19 @@
               <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="signals_template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cheatsheet" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="signals_template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cheatsheet" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="formula" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,16 +247,19 @@
       <workItem from="1547430215930" duration="17055000" />
       <workItem from="1547611178783" duration="4314000" />
       <workItem from="1547619134764" duration="4209000" />
+      <workItem from="1547633539569" duration="4641000" />
+      <workItem from="1547642162985" duration="1849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61440000" />
+    <option name="totallyTimeSpent" value="67930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -256,7 +273,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -315,16 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Th.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -412,17 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#235#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -439,16 +435,6 @@
           <caret line="34" column="140" lean-forward="true" selection-start-line="34" selection-start-column="140" selection-end-line="34" selection-end-column="140" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,6 +456,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Th.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -480,13 +506,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js">
+    <entry file="file://$PROJECT_DIR$/src/formula/IntegrationFormula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="11" column="24" lean-forward="true" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="50" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/TrigoFormula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>

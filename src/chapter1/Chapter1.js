@@ -9,8 +9,8 @@ class Chapter1 extends Component{
         return (
             <div>
                 <switch>
-                    <Route path='/TH/chapter1/lecture' component={TimeScalingContent} />
-                    <Route path='/TH/chapter1/geogebra' component={TimeScalingGraph} />
+                    <Route path='/TH/Chapter1/lecture' component={TimeScalingContent} />
+                    <Route path='/TH/Chapter1/geogebra' component={TimeScalingGraph} />
                 </switch>
             </div>
         );
