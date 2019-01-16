@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import 'katex/dist/katex.min.css';
 import { BlockMath } from 'react-katex';
+import {NavLink} from "react-router-dom";
+import {Button ,Col ,Row} from "reactstrap";
 
 
 class EulerFormula  extends Component{
@@ -14,7 +16,7 @@ class EulerFormula  extends Component{
                         "e^{j\\pi} + 1 =0";
         return(
             <div>
-                <BlockMath math={euler1}/>
+                <NavLink to = '/TH/chapter1/Geogebra/EulerFormulaGraph'><BlockMath math={euler1} /></NavLink>
                 <BlockMath math={euler2}/>
                 <BlockMath math={euler3}/>
                 <BlockMath math={euler4}/>

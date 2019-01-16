@@ -79,8 +79,10 @@ class TimeScalingGraph extends Component {
                         <Slider sliderSetter={this.sliderSetter} name="height" min="0" max="5" defaultValue="1"/>
                     </Col>
                 </Row>
-                <Button color="primary" block>
-                    <NavLink style={{color: 'white'}} to = '/chapter1/lecture'>Lecture</NavLink>
+                <Button color="primary" block
+                    tag={NavLink} to = '/TH/chapter1/lecture'
+                >
+                    Lecture
                 </Button>
             </div>
         );

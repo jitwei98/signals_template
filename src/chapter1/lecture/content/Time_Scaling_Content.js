@@ -23,8 +23,10 @@ export default () => (
             <EulerFormula/>
         </div>
     </Carousel>
-    <Button color="primary" block>
-            <NavLink style={{color: 'white'}} to='/TH/chapter1/geogebra'>Playground</NavLink>
+    <Button color="primary" block
+            tag={NavLink} to='/TH/Chapter1/Geogebra/TimeScalingGraph'
+    >
+            Playground
     </Button>
     </div>
 
