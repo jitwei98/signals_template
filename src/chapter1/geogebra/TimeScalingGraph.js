@@ -3,6 +3,7 @@ import $ from 'jquery';
 import {Row, Col, Button} from 'reactstrap';
 import {NavLink} from "react-router-dom";
 import Slider from './Slider';
+import SwitchExample from './Switch';
 class TimeScalingGraph extends Component {
     constructor(props){
         super(props);
@@ -34,7 +35,10 @@ class TimeScalingGraph extends Component {
                 // alert(document.getElementById("Vol").value);
                 api.setValue('a', this.state.slider[0].value);
                 api.setValue('B', this.state.slider[1].value);
+                api.setValue('PON', this.state.slider[2].value);
+                api.setValue('height', this.state.slider[3].value);
             }, 100);
+
         };
         var applet = new window.GGBApplet(parameters, '5.0');
         applet.inject('ggb');
@@ -50,6 +54,17 @@ class TimeScalingGraph extends Component {
             slider
         });
     };
+    signSetter = (checked)=>{
+        if(checked){
+            this.setState(()=>{
+                this.state.slider[2].value = 1;
+            });
+        }else{
+            this.setState(()=>{
+                this.state.slider[2].value = -1;
+            });
+        }
+    }
     render() {
         return(
             <div>
@@ -58,8 +73,10 @@ class TimeScalingGraph extends Component {
                          <div id='ggb'></div>
                     </Col>
                     <Col lg="4">
-                        <Slider sliderSetter={this.sliderSetter} name="alpha"/>
-                        <Slider sliderSetter={this.sliderSetter} name="beta"/>
+                        <Slider sliderSetter={this.sliderSetter} name="alpha" min="0" max="5" defaultValue="1"/>
+                        <Slider sliderSetter={this.sliderSetter} name="beta" min="-5" max="5" defaultValue ="0"/>
+                        <SwitchExample signSetter = {this.signSetter}/>
+                        <Slider sliderSetter={this.sliderSetter} name="height" min="0" max="5" defaultValue="1"/>
                     </Col>
                 </Row>
                 <Button color="primary" block>

@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f9df56-4483-478b-8068-89379b82aefe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem2/TimeReversal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/TimeShifting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/geogebra/Switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/geogebra/Switch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/Chapter1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/Chapter1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton/CarouselNextButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton/CarouselPrevButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/CarouselItem1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem2/CarouselItem2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/CarouselItem3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="289">
               <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -48,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="187">
               <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="53" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -60,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="257">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -72,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="227">
+              <caret line="76" column="77" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="111" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -84,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="34" column="140" lean-forward="true" selection-start-line="34" selection-start-column="140" selection-end-line="34" selection-end-column="140" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -143,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js" />
+        <option value="$PROJECT_DIR$/src/chapter1/geogebra/Switch.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" />
       </list>
@@ -278,16 +268,18 @@
       <workItem from="1547284901857" duration="2603000" />
       <workItem from="1547339526720" duration="8643000" />
       <workItem from="1547430215930" duration="17055000" />
+      <workItem from="1547611178783" duration="4314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52917000" />
+    <option name="totallyTimeSpent" value="57231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -301,7 +293,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3277592" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,9 +452,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="289">
           <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -471,12 +464,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="187">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="53" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -484,20 +487,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="45" />
+        <state>
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="34" column="140" lean-forward="true" selection-start-line="34" selection-start-column="140" selection-end-line="34" selection-end-column="140" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -506,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="227">
+          <caret line="76" column="77" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="111" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

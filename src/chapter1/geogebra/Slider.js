@@ -2,7 +2,7 @@ import React from 'react';
 import 'rc-slider/assets/index.css';
 import Slider from 'rc-slider';
 import Tooltip from 'rc-tooltip';
-
+import {Col} from 'reactstrap';
 const Handle = Slider.Handle;
 
 const handle = (props) => {
@@ -19,7 +19,7 @@ const handle = (props) => {
         </Tooltip>
     );
 };
-const wrapperStyle = { width: 400, margin: 50 };
+const wrapperStyle = { width: 300, margin: 50 };
 class SimpleSlider extends React.Component {
     handleChange = (value) => {
         this.props.sliderSetter(this.props.name,value);
@@ -29,8 +29,10 @@ class SimpleSlider extends React.Component {
         return (
             <div>
                 <div style={wrapperStyle}>
-                    <p>{this.props.name}</p>
-                    <Slider min={0} max={5} defaultValue={0} handle={handle} step={0.1} onChange={this.handleChange}/>
+                        <label htmlFor="icon-switch">
+                            {this.props.name}
+                        </label>
+                        <Slider min={parseInt(this.props.min)} max={parseInt(this.props.max)} defaultValue={parseInt(this.props.defaultValue)} handle={handle} step={0.1} onChange={this.handleChange} id={this.props.name}/>
                 </div>
             </div>
         );
