@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f9df56-4483-478b-8068-89379b82aefe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/geogebra/Switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/geogebra/Switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,20 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="76" column="77" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="111" />
+            <state>
+              <caret selection-end-column="39" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -71,12 +55,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Slider.js">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="140" lean-forward="true" selection-start-line="34" selection-start-column="140" selection-end-line="34" selection-end-column="140" />
+            <state>
+              <caret selection-end-line="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,11 +126,12 @@
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/TimeShifting.js" />
         <option value="$PROJECT_DIR$/node_modules/react-responsive-carousel/lib/styles/carousel.css" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css" />
-        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Switch.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" />
+        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" />
+        <option value="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" />
       </list>
     </option>
   </component>
@@ -148,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,54 +167,19 @@
               <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="signals_template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="cheatsheet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="signals_template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cheatsheet" type="462c0819:PsiDirectoryNode" />
               <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="geogebra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="CarouselItems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="CarouselItems" type="462c0819:PsiDirectoryNode" />
-              <item name="CarouselItem1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,15 +232,15 @@
       <workItem from="1547339526720" duration="8643000" />
       <workItem from="1547430215930" duration="17055000" />
       <workItem from="1547611178783" duration="4314000" />
+      <workItem from="1547619134764" duration="4209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57231000" />
+    <option name="totallyTimeSpent" value="61440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,13 +343,6 @@
     <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton/CarouselPrevButton.js" />
     <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton/CarouselNextButton.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-responsive-carousel/lib/components/Thumbs.js" />
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselControlButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -435,16 +391,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-responsive-carousel/lib/styles/carousel.css" />
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -453,6 +399,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js" />
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -464,35 +423,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.js">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,10 +443,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="76" column="77" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="111" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

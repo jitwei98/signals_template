@@ -6,6 +6,7 @@ import TimeReversal from "./CarouselItems/CarouselItem2/TimeReversal"
 import TimeShifting from "./CarouselItems/CarouselItem3/TimeShifting"
 import { Carousel } from "react-responsive-carousel";
 import './Time_Scaling_Content.css'
+import IntergrationFormula from "../../../cheatsheet/chapter1/IntegrationFormula";
 export default () => (
     <div>
     <Carousel showThumbs={false} showArrows={true} style={{backgroundColor:'white'}} >
@@ -17,6 +18,9 @@ export default () => (
         </div>
         <div>
             <TimeShifting/>
+        </div>
+        <div>
+            <IntergrationFormula/>
         </div>
     </Carousel>
     <Button color="primary" block>
