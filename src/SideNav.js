@@ -18,7 +18,8 @@ class SideNav extends Component {
 
 	render() {
 		return (
-      <div class="sidenav-container">
+      <div className="row">
+      <div className="col-lg-2">
         <p>List Based</p>
         <Nav vertical>
           <NavItem>
@@ -39,6 +40,7 @@ class SideNav extends Component {
         <Nav vertical>
           <NavLink href="#">Link</NavLink> <NavLink href="#">Link</NavLink> <NavLink href="#">Another Link</NavLink> <NavLink disabled href="#">Disabled Link</NavLink>
         </Nav>
+      </div>
       </div>
       );
 	}
