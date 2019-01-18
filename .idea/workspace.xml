@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f9df56-4483-478b-8068-89379b82aefe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/geogebra/EulerFormulaGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/Chapter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/geogebra/EulerFormulaGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/geogebra/EvenPeriodicFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/geogebra/Slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/geogebra/Switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/geogebra/Switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/CarouselControlButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/CarouselItem2/TimeReversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/CarouselItem3/TimeShifting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/lecture/content/Time_Scaling_Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/lecture/content/Time_Scaling_Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/chapter1/MainFormulaPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/chapter1/ProveCos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/chapter2/FourierSeries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/Chapter1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/Chapter1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Th.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formula/Formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formula/IntegrationFormula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formula/IntegrationFormula.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,10 +37,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="374">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#235#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,7 +51,31 @@
         <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter2/Chapter2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="106" lean-forward="true" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -49,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -59,22 +96,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
+        <entry file="file://$PROJECT_DIR$/src/formula/chapter1/MainFormulaPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="274">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
+        <entry file="file://$PROJECT_DIR$/src/formula/chapter1/ProveCos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -132,17 +169,24 @@
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" />
         <option value="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Th.js" />
         <option value="$PROJECT_DIR$/src/formula/chapter1/IntegrationFormula.js" />
-        <option value="$PROJECT_DIR$/src/formula/IntegrationFormula.js" />
-        <option value="$PROJECT_DIR$/src/formula/Formula.js" />
         <option value="$PROJECT_DIR$/src/formula/TrigoFormula.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/EulerFormulaGraph.js" />
-        <option value="$PROJECT_DIR$/src/chapter1/Chapter1.js" />
-        <option value="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js" />
+        <option value="$PROJECT_DIR$/src/formula/Formula.js" />
+        <option value="$PROJECT_DIR$/src/formula/IntegrationFormula.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter2/FourierSeries.js" />
+        <option value="$PROJECT_DIR$/src/chapter2/Chapter1.js" />
+        <option value="$PROJECT_DIR$/src/Th.js" />
+        <option value="$PROJECT_DIR$/src/chapter2/geogebra/Slider.js" />
+        <option value="$PROJECT_DIR$/src/chapter2/geogebra/Switch.js" />
+        <option value="$PROJECT_DIR$/src/chapter2/geogebra/EvenPeriodicFunction.js" />
+        <option value="$PROJECT_DIR$/src/chapter1/Chapter1.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter1/ProveCos.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter1/MainFormulaPage.js" />
       </list>
     </option>
   </component>
@@ -190,21 +234,6 @@
               <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="signals_template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="formula" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,6 +259,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src" />
       <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter1\lecture\content\CarouselItems\CarouselControlButton" />
       <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter1\lecture\content\CarouselItems" />
     </key>
@@ -274,12 +304,15 @@
       <workItem from="1547619134764" duration="4209000" />
       <workItem from="1547633539569" duration="4641000" />
       <workItem from="1547642162985" duration="2136000" />
-      <workItem from="1547645269553" duration="2490000" />
+      <workItem from="1547645269553" duration="3734000" />
+      <workItem from="1547697737639" duration="2288000" />
+      <workItem from="1547724753041" duration="3288000" />
+      <workItem from="1547777636296" duration="7732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70707000" />
+    <option name="totallyTimeSpent" value="85259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -465,30 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/formula/IntegrationFormula.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="24" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/formula/TrigoFormula.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -496,20 +505,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Th.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/IntegrationFormula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#235#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/chapter2/FourierSeries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="120" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/Switch.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/EvenPeriodicFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="100" column="10" lean-forward="true" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/Switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -518,10 +598,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/EulerFormulaGraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/Chapter2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="106" lean-forward="true" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -529,7 +629,17 @@
     <entry file="file://$PROJECT_DIR$/src/chapter1/Chapter1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Th.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -538,30 +648,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/TimeScalingGraph.js">
+    <entry file="file://$PROJECT_DIR$/src/formula/chapter1/ProveCos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
+    <entry file="file://$PROJECT_DIR$/src/formula/chapter1/MainFormulaPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="274">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,20 @@
+.carousel .slide {
+    background: #FFF;
+}
+.carousel .control-dots .dot{
+    background: rgb(0, 0, 0);
+}
+.carousel{
+    height: 600px;
+}
+#Playground{
+    height:600px;
+}
+#Lesson{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#controlButton{
+    padding-left: 150px;
+    padding-right: 150px;
+}
