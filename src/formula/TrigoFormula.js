@@ -18,21 +18,25 @@ class TrigoFormula extends Component{
         let ctc = "\\cos P \\cos Q = \\frac{1}{2} ( \\cos(P+Q) + \\cos(P-Q) )";
         return(
             <div>
-                Ptolemy’s identities:
+                <strong>Ptolemy’s identities:</strong>
                 <BlockMath math={Ptolemy1}/>
                 <BlockMath math={Ptolemy2}/>
-                Double angle:
+                <hr />
+                <strong>Double angle:</strong>
                 <BlockMath math={doublesin}/>
                 <BlockMath math={doublecos}/>
-                Product-sum identities:
+                <hr />
+                <strong>Product-sum identities:</strong>
                 <BlockMath math={sps}/>
                 <BlockMath math={sms}/>
                 <BlockMath math={cpc}/>
                 <BlockMath math={cmc}/>
-                Product identities:
+                <hr />
+                <strong>Product identities:</strong>
                 <BlockMath math={stc}/>
                 <BlockMath math={sts}/>
                 <BlockMath math={ctc}/>
+                <hr />
             </div>
         );
     }

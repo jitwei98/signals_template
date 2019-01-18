@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import BootstrapNavbar from './Navbar.js';
+import SideNav from './SideNav.js';
 // import BootstrapPagination from './Pagination.js';
 import Example from './Pagination';
 // import Equations from './Equations';
@@ -19,11 +20,17 @@ class App extends Component {
       <BrowserRouter>
           <div className="App">
             <BootstrapNavbar />
-            <div className="container">
-              <Switch>
-                <Route path='/jit' component={Jit}/>
-                <Route path='/TH' component={Th}/>
-              </Switch>
+            <div className="container-fluid">
+              <div className="row">
+                <SideNav />
+                {/* TODO: Refactor the code below*/}
+                <div className="col-lg-10">
+                  <Switch>
+                    <Route path='/jit' component={Jit}/>
+                    <Route path='/TH' component={Th}/>
+                  </Switch>
+                </div>
+              </div>
             </div>
         
 
