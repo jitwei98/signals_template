@@ -16,18 +16,17 @@ class SideNav extends Component {
 
 	render() {
 		return (
-      <div className="row" style={{textAlign: "left"}}>
-      <div className="col-lg-2">
+      <div className="col-lg-2" style={{textAlign: "left"}}>
         <p>List Based</p>
         <Nav pills vertical>
           <NavItem >
-            <NavLink href="#" active>Link</NavLink>
+            <NavLink href="/TH/Formula/Euler">Euler Formula</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Link</NavLink>
+            <NavLink href="/TH/Formula/Integration">Integration Formula</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Another Link</NavLink>
+            <NavLink href="/TH/Formula/Trigo">Trigo Formula</NavLink>
           </NavItem>
           <NavItem>
             <NavLink disabled href="#">Disabled Link</NavLink>
@@ -59,7 +58,6 @@ class SideNav extends Component {
         <Nav pills vertical>
           <NavLink href="#" active>Link</NavLink> <NavLink href="#">Link</NavLink> <NavLink href="#">Another Link</NavLink> <NavLink disabled href="#">Disabled Link</NavLink>
         </Nav>
-      </div>
       </div>
       );
 	}

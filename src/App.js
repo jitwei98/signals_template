@@ -21,11 +21,16 @@ class App extends Component {
           <div className="App">
             <BootstrapNavbar />
             <div className="container-fluid">
-              <SideNav />
-              <Switch>
-                <Route path='/jit' component={Jit}/>
-                <Route path='/TH' component={Th}/>
-              </Switch>
+              <div className="row">
+                <SideNav />
+                {/* TODO: Refactor the code below*/}
+                <div className="col-lg-10">
+                  <Switch>
+                    <Route path='/jit' component={Jit}/>
+                    <Route path='/TH' component={Th}/>
+                  </Switch>
+                </div>
+              </div>
             </div>
         
 
