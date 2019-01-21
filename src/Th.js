@@ -3,7 +3,7 @@ import './App.css';
 import Chapter1 from "./chapter1/Chapter1";
 import Chapter2 from './chapter2/Chapter2'
 import Formula from "./formula/Formula"
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 class Th extends Component {
 
 

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import TimeScalingContent from './lecture/content/Time_Scaling_Content';
+import TimeScalingContent from './lecture/content/EvenOddPeriodFunctionContent';
 import EvenPeriodicFunction from './geogebra/EvenPeriodicFunction';
-import EulerFormulaGraph from './geogebra/EulerFormulaGraph'
+import OverallPlayground from './geogebra/OverallPlayground';
+import OddPeriodicFunction from './geogebra/OddPeriodicFunction'
 import { Route } from "react-router-dom";
 
 class Chapter2 extends Component{
@@ -11,8 +12,9 @@ class Chapter2 extends Component{
             <div>
                 <switch>
                     <Route path='/TH/Chapter2/lecture' component={TimeScalingContent} />
+                    <Route path='/TH/Chapter2/Geogebra/OverallPlayground' component={OverallPlayground} />
                     <Route path='/TH/Chapter2/Geogebra/EvenPeriodicFunction' component={EvenPeriodicFunction} />
-                    <Route path='/TH/chapter2/Geogebra/EulerFormulaGraph' component={EulerFormulaGraph} />
+                    <Route path='/TH/Chapter2/Geogebra/OddPeriodicFunction' component={OddPeriodicFunction} />
                 </switch>
             </div>
         );

@@ -27,7 +27,7 @@ class SwitchExample extends Component {
                     <Switch
                         checked={this.state.checked}
                         onChange={this.handleChange}
-                        onColor="#808080"
+                        onColor="#0080ff"
                         className="react-switch"
                         id="icon-switch"
                     />
