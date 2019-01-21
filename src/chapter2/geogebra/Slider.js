@@ -2,7 +2,6 @@ import React from 'react';
 import 'rc-slider/assets/index.css';
 import Slider from 'rc-slider';
 import Tooltip from 'rc-tooltip';
-import {Col} from 'reactstrap';
 const Handle = Slider.Handle;
 
 const handle = (props) => {
@@ -19,7 +18,7 @@ const handle = (props) => {
         </Tooltip>
     );
 };
-const wrapperStyle = { width: 300, margin: 50 };
+const wrapperStyle = { width: 300, margin: 0, marginBottom:10, padding:0 };
 class SimpleSlider extends React.Component {
     handleChange = (value) => {
         this.props.sliderSetter(this.props.name,value);

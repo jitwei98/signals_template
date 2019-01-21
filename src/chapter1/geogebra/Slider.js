@@ -2,7 +2,6 @@ import React from 'react';
 import 'rc-slider/assets/index.css';
 import Slider from 'rc-slider';
 import Tooltip from 'rc-tooltip';
-import {Col} from 'reactstrap';
 const Handle = Slider.Handle;
 
 const handle = (props) => {

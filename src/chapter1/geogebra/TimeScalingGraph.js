@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import $ from 'jquery';
 import {Row, Col, Button} from 'reactstrap';
 import {NavLink} from "react-router-dom";
 import Slider from './Slider';
@@ -25,12 +24,6 @@ class TimeScalingGraph extends Component {
 
         };
         parameters.appletOnLoad = (api) =>{
-            function checkSignButtonState() {
-                if($('#sign').prop('checked')){
-                    return 1
-                }
-                return -1;
-            }
             setInterval(()=>{
                 // alert(document.getElementById("Vol").value);
                 api.setValue('a', this.state.slider[0].value);
@@ -55,15 +48,24 @@ class TimeScalingGraph extends Component {
         });
     };
     signSetter = (checked)=>{
+        let slider = [...this.state.slider];
+
         if(checked){
-            this.setState(()=>{
-                this.state.slider[2].value = 1;
+            slider.forEach((item,i)=>{
+                if(item.name === "sign"){
+                    slider[i].value = 1;
+                }
             });
         }else{
-            this.setState(()=>{
-                this.state.slider[2].value = -1;
+            slider.forEach((item,i)=>{
+                if(item.name === "sign"){
+                    slider[i].value = -1;
+                }
             });
         }
+        this.setState({
+            slider
+        });
     }
     render() {
         return(

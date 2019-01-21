@@ -4,8 +4,9 @@ import { BlockMath } from 'react-katex';
 
 class IntegrationFormula extends Component{
     render() {
-        let sin0 = " \\int_{0}^T\n \\sin(n \\space \\omega t) dt = 0"+ " \\space \\space \\space \\space"+
-            "where \\space n \\in \\Re \\space";
+        let sin0 = " \\int_{0}^T\n \\sin(n \\space \\omega t) dt = 0  " +
+            "\\space \\space \\space \\space"+
+            " where \\space n \\in \\Re \\space";
         let cos0 = " \\int_{0}^T\n \\cos(n \\space \\omega t) dt = 0"+ " \\space \\space \\space \\space"+
             " where \\space \\{n \\in \\Re \\space|\\space n \\ne 0 \\}";
         let sin0cos0 = " \\int_{0}^T\n \\sin(n \\space \\omega t) \\cos(m \\space \\omega t) dt = 0"+ " \\space \\space \\space \\space"+
