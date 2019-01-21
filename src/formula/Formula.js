@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
 import 'katex/dist/katex.min.css';
 import { Switch, Route } from "react-router-dom";
 import EulerFormula from './chapter1/EulerFormula';
