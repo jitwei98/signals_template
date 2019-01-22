@@ -3,7 +3,7 @@ import Switch from "react-switch";
 
 class SwitchExample extends Component {
 
-    state = { checked: false };
+    state = { checked: true };
 
     handleChange=(checked) =>{
         this.setState({ checked });
