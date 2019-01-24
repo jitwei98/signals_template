@@ -18,7 +18,9 @@ class SideNav extends Component {
 
 	render() {
 		return (
-      <div className="col-lg-2" style={{textAlign: "left"}}>
+      // TODO: collapse on smaller screen
+      <div className="col-lg-2 col-sm-4" style={{textAlign: "left"}}>
+        
         <p>Cheat Sheet</p>
         <Nav pills vertical>
           <NavItem>
@@ -35,6 +37,72 @@ class SideNav extends Component {
           </NavItem>
         </Nav>
         <hr />
+
+        <p>Chapter 1</p>
+        <Nav pills vertical>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Euler</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Type of wave</NavLink>
+          </NavItem>
+        </Nav>
+        <hr />
+
+        <p>Chapter 2</p>
+        <Nav pills vertical>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Fourier series</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Even periodic Function</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Odd periodic Function</NavLink>
+          </NavItem>
+        </Nav>
+        <hr />
+
+
+        <p>Chapter 3</p>
+        <Nav pills vertical>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">From series to transform</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Linearity</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Scaling</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Duality</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Time shifting</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Frequency shifting</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Differentiation</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Integration</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Multiplication</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Convolution</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to="#">Dirac-delta function</NavLink>
+          </NavItem>
+          
+        </Nav>
+        <hr />
+
 
         <p>Chapter 1</p>
         <Nav pills vertical>
