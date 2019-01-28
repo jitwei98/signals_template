@@ -7,7 +7,7 @@ const OddPeriodicFunction = ()=>{
     let b_n = "b_n = \\frac{4}{T} \\int_{0}^{\\frac{T}{2}} f(t) \\sin( n \\frac{2pi}{T} t)dt";
    return(
         <div >
-            <h3 className="text-center">Even periodic function</h3>
+            <h3 className="text-center">Odd periodic function</h3>
             <p>
                 <BlockMath math={a_0} />
             </p>

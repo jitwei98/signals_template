@@ -41,7 +41,7 @@ class SideNav extends Component {
         <p>Chapter 1</p>
         <Nav pills vertical>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Euler</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Formula/Euler">Euler</NavLink>
           </NavItem>
           <NavItem>
             <NavLink tag={RRNavLink} to="#">Type of wave</NavLink>
@@ -52,13 +52,13 @@ class SideNav extends Component {
         <p>Chapter 2</p>
         <Nav pills vertical>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Fourier series</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter2/lecture">Fourier series</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Even periodic Function</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter2/Geogebra/EvenPeriodicFunction">Even periodic Function</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Odd periodic Function</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter2/Geogebra/OddPeriodicFunction">Odd periodic Function</NavLink>
           </NavItem>
         </Nav>
         <hr />
