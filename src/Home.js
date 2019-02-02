@@ -12,7 +12,12 @@ class Home extends Component {
     return (
       <div className="row">
         <SideNav />
-        <div className="col-lg-10">
+        <div 
+          className="col-lg-10"
+          style={{
+            marginTop: 15 + 'px',
+          }}
+          >
             <Switch>
               <Route path='/jit' component={Jit} />
               <Route path='/th' component={Th} />

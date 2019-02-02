@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 // import { Link } from 'react-router-dom';
 import { NavLink as RRNavLink } from 'react-router-dom';
+import './SideNav.css'
+
 
 class SideNav extends Component {
   constructor(props) {
@@ -38,12 +40,12 @@ class SideNav extends Component {
 		return (
       // TODO: collapse on smaller screen
       <div 
-        className="col-lg-2 col-sm-4" 
+        className="col-md-2 hidden-lg hidden-xs hidden-sm" 
         style={{
           textAlign: "left",
           borderRight: 1+"px" + " solid #eee",
-          backgroundColor: "#f5f5f5",
           paddingTop: 15 + 'px',
+          overflowX: "hidden"
         }}>
         
         <p>Cheat Sheet</p>
