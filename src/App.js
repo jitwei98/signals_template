@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import BootstrapNavbar from './Navbar.js';
-import SideNav from './SideNav.js';
-// import BootstrapPagination from './Pagination.js';
-import Example from './Pagination';
-// import Equations from './Equations';
-import KatexEquation from './KatexEquation';
 
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import { render } from "react-dom";
+// import { render } from "react-dom";
 
-import Chapter1 from "./chapter1/Chapter1";
-import Jit from "./Jit"
-import Th from './Th';
+import LandingPage from './LandingPage';
+import Home from './Home';
+
 class App extends Component {
 
   render() {
@@ -20,20 +15,12 @@ class App extends Component {
       <BrowserRouter>
           <div className="App">
             <BootstrapNavbar />
-            <div className="container-fluid">
-              <div className="row">
-                <SideNav />
-                {/* TODO: Refactor the code below*/}
-                <div className="col-lg-10">
-                  <Switch>
-                    <Route path='/jit' component={Jit}/>
-                    <Route path='/TH' component={Th}/>
-                  </Switch>
-                </div>
+              <div className="container-fluid">
+                <Switch>
+                  <Route exact path='/' component={LandingPage} />
+                  <Route path='/' component={Home} />
+                </Switch>
               </div>
-            </div>
-        
-
            </div>
       </BrowserRouter>
     );
