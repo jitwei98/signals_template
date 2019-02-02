@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 import './Navbar.css';
 
+// TODO: Find a purpose for this navbar dropdown
+
 class BootstrapNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -28,7 +30,10 @@ class BootstrapNavbar extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink to = '/chapter1/lecture'>Chapter 1</NavLink>
+                <NavLink to='/TH'>TH</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to='/Jit'>Jit</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

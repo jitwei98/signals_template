@@ -16,10 +16,35 @@ class SideNav extends Component {
   //   this.setState({ sidebarOpen: open });
   // }
 
+  /*
+              @media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    /*padding: 5px;
+    padding-left: 10px;*/
+  //   overflow-x: hidden;
+  //   overflow-y: auto;  Scrollable contents if viewport is shorter than content. 
+  //   background-color: #f5f5f5;
+  //   border-right: 1px solid #eee;
+  // }
+  // */
+
 	render() {
 		return (
       // TODO: collapse on smaller screen
-      <div className="col-lg-2 col-sm-4" style={{textAlign: "left"}}>
+      <div 
+        className="col-lg-2 col-sm-4" 
+        style={{
+          textAlign: "left",
+          borderRight: 1+"px" + " solid #eee",
+          backgroundColor: "#f5f5f5",
+          paddingTop: 15 + 'px',
+        }}>
         
         <p>Cheat Sheet</p>
         <Nav pills vertical>
