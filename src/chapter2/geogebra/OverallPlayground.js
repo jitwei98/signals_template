@@ -75,7 +75,6 @@ class EvenPeriodicFunction extends Component {
         this.setState({
             button
         });
-        console.log(this.state.button[0]);
     }
     render() {
         return(

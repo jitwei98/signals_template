@@ -96,26 +96,26 @@ class SideNav extends Component {
           <NavItem>
             <NavLink tag={RRNavLink} to="#">From series to transform</NavLink>
           </NavItem>
+            <NavItem>
+                <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/addition">Linearity</NavLink>
+            </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Linearity</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">Scaling</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/TimeScaling">Scaling</NavLink>
           </NavItem>
           <NavItem>
             <NavLink tag={RRNavLink} to="#">Duality</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Time shifting</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/timeShift">Time shifting</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Frequency shifting</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/FrequencyShift">Frequency shifting</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Differentiation</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Differentiation">Differentiation</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={RRNavLink} to="#">Integration</NavLink>
+            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Integration">Integration</NavLink>
           </NavItem>
           <NavItem>
             <NavLink tag={RRNavLink} to="#">Multiplication</NavLink>
