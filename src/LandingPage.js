@@ -8,68 +8,68 @@ class LandingPage extends Component {
       <div>
         <div className="row">
           <Chapter 
-            cardHeader={"Euler Formula"}
+            cardHeader={"Signals and Classification"}
+            textContent={"Describe the subtopics here."} 
+            pathToTopic={"/TH/Chapter1/lecture"}
+            />
+          <Chapter 
+            cardHeader={"Fourier series"}
+            textContent={"Describe the subtopics here."} 
+            pathToTopic={"/TH/Chapter2/lecture"}
+          />
+          <Chapter 
+            cardHeader={"Fourier transform"}
+            textContent={"Describe the subtopics here."} 
+            pathToTopic={"/TH/Chapter3/Geogebra/addition"}
+          />
+        </div>
+        <div className="row">
+          <Chapter 
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
             />
           <Chapter 
-            cardHeader={"Basic Signals"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
           />
           <Chapter 
-            cardHeader={"Fourier Series"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
           />
         </div>
         <div className="row">
           <Chapter 
-            cardHeader={"Even Periodic Function"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
             />
           <Chapter 
-            cardHeader={"Odd Periodic Function"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
           />
           <Chapter 
-            cardHeader={"Fourier Transform"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
           />
         </div>
         <div className="row">
           <Chapter 
-            cardHeader={"Linearity"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
             />
           <Chapter 
-            cardHeader={"Scaling"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
           />
           <Chapter 
-            cardHeader={"Duality"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-          />
-        </div>
-        <div className="row">
-          <Chapter 
-            cardHeader={"Time Shifting"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-            />
-          <Chapter 
-            cardHeader={"Frequency Shifting"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-          />
-          <Chapter 
-            cardHeader={"Differentiation"}
+            cardHeader={"To be Continued"}
             textContent={"Describe the subtopics here."} 
             pathToTopic={"#"}
           />
