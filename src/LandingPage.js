@@ -17,50 +17,16 @@ class LandingPage extends Component {
             textContent={"Describe the subtopics here."} 
             pathToTopic={"/TH/Chapter2/lecture"}
           />
-          <Chapter 
+          <Chapter
             cardHeader={"Fourier transform"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"/TH/Chapter3/Geogebra/addition"}
+            textContent={"Describe the subtopics here."}
+            pathToTopic={"/TH/Chapter3/Geogebra/lecture"}
           />
         </div>
         <div className="row">
-          <Chapter 
+          <Chapter
             cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-            />
-          <Chapter 
-            cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-          />
-          <Chapter 
-            cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-          />
-        </div>
-        <div className="row">
-          <Chapter 
-            cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-            />
-          <Chapter 
-            cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-          />
-          <Chapter 
-            cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
-            pathToTopic={"#"}
-          />
-        </div>
-        <div className="row">
-          <Chapter 
-            cardHeader={"To be Continued"}
-            textContent={"Describe the subtopics here."} 
+            textContent={"Describe the subtopics here."}
             pathToTopic={"#"}
             />
           <Chapter 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink ,Button} from 'reactstrap';
 // import { Link } from 'react-router-dom';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import './SideNav.css'
@@ -8,6 +8,16 @@ import './SideNav.css'
 class SideNav extends Component {
   constructor(props) {
     super(props);
+      this.toggle1 = this.toggle1.bind(this);
+      this.toggle2 = this.toggle2.bind(this);
+      this.toggle3 = this.toggle3.bind(this);
+      this.toggle4 = this.toggle4.bind(this);
+      this.state = {
+          collapse1: true,
+          collapse2: true,
+          collapse3: true,
+          collapse4: true
+      };
     // this.state = {
     //   sidebarOpen: false
     // };
@@ -35,7 +45,18 @@ class SideNav extends Component {
   //   border-right: 1px solid #eee;
   // }
   // */
-
+    toggle1() {
+        this.setState({ collapse1: !this.state.collapse1 });
+    }
+    toggle2() {
+        this.setState({ collapse2: !this.state.collapse2 });
+    }
+    toggle3() {
+        this.setState({ collapse3: !this.state.collapse3 });
+    }
+    toggle4() {
+        this.setState({ collapse4: !this.state.collapse4 });
+    }
 	render() {
 		return (
       // TODO: collapse on smaller screen
@@ -47,111 +68,105 @@ class SideNav extends Component {
           paddingTop: 15 + 'px',
           overflowX: "hidden"
         }}>
-        
-        <p>Cheat Sheet</p>
-        <Nav pills vertical>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Formula/Euler">Euler</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Formula/Integration">Integration Formula</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Formula/Trigo">Trigo Formula</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Formula/FourierSeries">Fourier Series</NavLink>
-          </NavItem>
-        </Nav>
+
+          <Button color="outline-dark" onClick={this.toggle1} > Cheat Sheet</Button>
+          <Collapse isOpen={!this.state.collapse1}>
+                <Nav pills vertical>
+                  <NavItem>
+                    <NavLink tag={RRNavLink} to="/TH/Formula/Euler">Euler</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink tag={RRNavLink} to="/TH/Formula/Integration">Integration Formula</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink tag={RRNavLink} to="/TH/Formula/Trigo">Trigo Formula</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink tag={RRNavLink} to="/TH/Formula/FourierSeries">Fourier Series</NavLink>
+                  </NavItem>
+                    <NavItem>
+                        <NavLink tag={RRNavLink} to="/TH/Formula/FourierTransform">Fourier Transform</NavLink>
+                    </NavItem>
+                </Nav>
+          </Collapse>
         <hr />
 
-        <p>Chapter 1</p>
-        <Nav pills vertical>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Formula/Euler">Euler</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">Type of wave</NavLink>
-          </NavItem>
-        </Nav>
-        <hr />
+          <Button color="outline-dark" onClick={this.toggle2} >Chapter 1</Button>
+          <Collapse isOpen={!this.state.collapse2}>
+              <Nav pills vertical>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Formula/Euler">Euler</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="#">Type of wave</NavLink>
+                  </NavItem>
+              </Nav>
+          </Collapse>
+          <hr />
 
-        <p>Chapter 2</p>
-        <Nav pills vertical>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter2/lecture">Fourier series</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter2/Geogebra/EvenPeriodicFunction">Even periodic Function</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter2/Geogebra/OddPeriodicFunction">Odd periodic Function</NavLink>
-          </NavItem>
-        </Nav>
-        <hr />
+          <Button color="outline-dark" onClick={this.toggle3} >Chapter 2</Button>
+          <Collapse isOpen={!this.state.collapse3}>
+              <Nav pills vertical>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter2/lecture">Fourier series</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter2/Geogebra/EvenPeriodicFunction">Even periodic Function</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter2/Geogebra/OddPeriodicFunction">Odd periodic Function</NavLink>
+                  </NavItem>
+              </Nav>
+          </Collapse>
+          <hr />
+
+          <Button color="outline-dark" onClick={this.toggle4} >Chapter 3</Button>
+          <Collapse isOpen={!this.state.collapse4}>
+              <Nav pills vertical>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="#" disabled>From series to transform</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/lecture">Fourier transform</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/addition">Linearity</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/TimeScaling">Scaling</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="#" disabled>Duality</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/timeShift">Time shifting</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/FrequencyShift">Frequency shifting</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Differentiation">Differentiation</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Integration">Integration</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Convolution1">Convolution 1</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Convolution2">Convolution 2</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="#">Dirac-delta function</NavLink>
+                  </NavItem>
+
+              </Nav>
+          </Collapse>
+          <hr />
 
 
-        <p>Chapter 3</p>
-        <Nav pills vertical>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">From series to transform</NavLink>
-          </NavItem>
-            <NavItem>
-                <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/addition">Linearity</NavLink>
-            </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/TimeScaling">Scaling</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">Duality</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/timeShift">Time shifting</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/FrequencyShift">Frequency shifting</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Differentiation">Differentiation</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="/TH/Chapter3/Geogebra/Integration">Integration</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">Multiplication</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">Convolution</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to="#">Dirac-delta function</NavLink>
-          </NavItem>
-          
-        </Nav>
-        <hr />
 
 
-        <p>Chapter 1</p>
-        <Nav pills vertical>
-          <NavLink href="/TH/Chapter1/lecture" active>Lecture</NavLink> <NavLink href="#">Link</NavLink> <NavLink href="#">Another Link</NavLink> <NavLink disabled href="#">Disabled Link</NavLink>
-        </Nav>
-        <hr />
-        <p>Chapter 2</p>
-        <Nav pills vertical>
-        <NavItem >
-            <NavLink href="/TH/Chapter2/lecture" active>Lecture</NavLink>
-        </NavItem>
-          <NavItem >
-            <NavLink href="/TH/Chapter2/Geogebra/OverallPlayground">Time and Frequency</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/TH/Chapter2/Geogebra/EvenPeriodicFunction">Even period function</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/TH/Chapter2/Geogebra/OddPeriodicFunction">Odd period function</NavLink>
-          </NavItem>
-        </Nav>
-        <hr />
       </div>
       );
 	}

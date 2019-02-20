@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f9df56-4483-478b-8068-89379b82aefe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter3/geogebra/Convolution1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/geogebra/Convolution2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/CarouselControlButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properites/Differentiation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properites/Linearity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Summary/Summary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/lecture/content/lecture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formula/chapter3/FourierTransform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SideNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SideNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Chapter3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/Chapter3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/geogebra/Addition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/geogebra/Addition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/geogebra/Differentiation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/geogebra/Differentiation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/geogebra/FrequencyShift.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/geogebra/FrequencyShift.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/geogebra/Integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/geogebra/Integration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/geogebra/TimeScaling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/geogebra/TimeScaling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/geogebra/TimeShift.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/geogebra/TimeShift.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formula/Formula.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +33,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/lecture.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LandingPage.js">
+        <entry file="file://$PROJECT_DIR$/src/SideNav.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -29,13 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SideNav.js">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Convolution2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="731">
+              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -62,15 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem2/CarouselItem2.js" />
-        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/CarouselItem3.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js" />
-        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem2/TimeReversal.js" />
-        <option value="$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/TimeShifting.js" />
-        <option value="$PROJECT_DIR$/node_modules/react-responsive-carousel/lib/styles/carousel.css" />
         <option value="$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js" />
         <option value="$PROJECT_DIR$/src/cheatsheet/chapter1/IntegrationFormula.js" />
@@ -85,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/formula/chapter1/ProveCos.js" />
         <option value="$PROJECT_DIR$/src/formula/chapter1/EulerFormula.js" />
         <option value="$PROJECT_DIR$/src/formula/chapter1/MainFormulaPage.js" />
-        <option value="$PROJECT_DIR$/src/formula/Formula.js" />
         <option value="$PROJECT_DIR$/src/formula/IntegrationFormula.js" />
         <option value="$PROJECT_DIR$/src/chapter1/geogebra/Slider.js" />
         <option value="$PROJECT_DIR$/src/chapter2/geogebra/Slider.js" />
@@ -103,29 +119,42 @@
         <option value="$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/OddPeriodFunction/OddPeriodicFunction.js" />
         <option value="$PROJECT_DIR$/src/chapter3/geogebra/addition.js" />
         <option value="$PROJECT_DIR$/src/Th.js" />
+        <option value="$PROJECT_DIR$/src/chapter2/geogebra/OverallPlayground.js" />
+        <option value="$PROJECT_DIR$/src/formula/Formula.js" />
+        <option value="$PROJECT_DIR$/src/formula/chapter3/FourierTransform.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Summary/Summary.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properties/LinearityAndDuality.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/LinearityAndDuality.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properites/Linearity.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properites/Differentiation.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/lecture/content/lecture.js" />
         <option value="$PROJECT_DIR$/src/chapter3/geogebra/Addition.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/geogebra/TimeScaling.js" />
         <option value="$PROJECT_DIR$/src/chapter3/geogebra/TimeShift.js" />
         <option value="$PROJECT_DIR$/src/chapter3/geogebra/FrequencyShift.js" />
-        <option value="$PROJECT_DIR$/src/chapter3/geogebra/TimeScaling.js" />
-        <option value="$PROJECT_DIR$/src/chapter2/geogebra/OverallPlayground.js" />
         <option value="$PROJECT_DIR$/src/chapter3/geogebra/Differentiation.js" />
         <option value="$PROJECT_DIR$/src/chapter3/geogebra/Integration.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/geogebra/Convolution1.js" />
         <option value="$PROJECT_DIR$/src/chapter3/Chapter3.js" />
-        <option value="$PROJECT_DIR$/src/SideNav.js" />
+        <option value="$PROJECT_DIR$/src/chapter3/geogebra/Convolution2.js" />
         <option value="$PROJECT_DIR$/src/LandingPage.js" />
+        <option value="$PROJECT_DIR$/src/SideNav.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="515" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +189,40 @@
               <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="signals_template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="CarouselItems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="CarouselItems" type="462c0819:PsiDirectoryNode" />
+              <item name="EvenPeriodFunction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,11 +232,23 @@
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
               <item name="geogebra" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="formula" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="signals_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="signals_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="formula" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,17 +257,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\geogebra" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\geogebra" />
-      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter2\lecture\content\CarouselItems" />
-      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter2\geogebra" />
-      <recent name="C:\Users\tainh\Desktop\github\signals_template\src" />
-      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter1\lecture\content\CarouselItems\CarouselControlButton" />
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\lecture\content\CarouselItems\Properties" />
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\lecture" />
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\formula\chapter3" />
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\lecture\content" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\lecture\content" />
+      <recent name="C:\Users\tainh\Desktop\github\signals_template\src\chapter3\geogebra" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,12 +322,16 @@
       <workItem from="1548339295960" duration="982000" />
       <workItem from="1548692427554" duration="819000" />
       <workItem from="1549471264468" duration="3236000" />
-      <workItem from="1549504373492" duration="570000" />
+      <workItem from="1549504373492" duration="641000" />
+      <workItem from="1550142502469" duration="552000" />
+      <workItem from="1550671299418" duration="246000" />
+      <workItem from="1550673938192" duration="9482000" />
+      <workItem from="1550685083506" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103290000" />
+    <option name="totallyTimeSpent" value="115642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -286,83 +367,16 @@
           <url>file://$PROJECT_DIR$/src/Th.js</url>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/SideNav.js</url>
+          <line>73</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem3/TimeShifting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem2/TimeReversal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-responsive-carousel/lib/styles/carousel.css" />
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Tooltip.js" />
-    <entry file="file://$PROJECT_DIR$/src/chapter1/geogebra/Switch.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/CarouselItems/CarouselItem1/TimeScaling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formula/TrigoFormula.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/lecture/content/Time_Scaling_Content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/Switch.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -417,16 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -448,26 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/formula/IntegrationFormula.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="74" lean-forward="true" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/EvenPeriodFunction/EvenPeriodicFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -482,16 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formula/chapter2/FourierSeries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,39 +516,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/lecture/content/EvenOddPeriodFunctionContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/EvenPeriodicFunction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="101" column="52" selection-end-line="110" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Th.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/Chapter2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,70 +534,12 @@
         <state relative-caret-position="-204" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Slider.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/TimeShift.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Addition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/TimeScaling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/FrequencyShift.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/geogebra/OverallPlayground.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Differentiation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Integration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/Chapter3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,10 +564,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SideNav.js">
+    <entry file="file://$PROJECT_DIR$/src/chapter2/Chapter2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/CarouselControlButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/chapter2/FourierSeries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Th.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/IntegrationFormula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/lecture/content/EvenOddPeriodFunctionContent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="75" />
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/src/NavItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properties/LinearityAndDuality.js" />
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/LinearityAndDuality.js" />
+    <entry file="file://$PROJECT_DIR$/src/chapter2/lecture/content/CarouselItems/EvenPeriodFunction/EvenPeriodicFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Summary/Summary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properites/Linearity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="4" column="85" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/chapter3/FourierTransform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/CarouselItems/Properites/Differentiation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="98" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/TimeScaling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Addition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/FrequencyShift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="6213" selection-start-line="19" selection-start-column="6213" selection-end-line="19" selection-end-column="6213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/TimeShift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Differentiation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Slider.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/lecture/content/lecture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/Chapter3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="86" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -687,8 +750,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LandingPage.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Convolution1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/geogebra/Convolution2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SideNav.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

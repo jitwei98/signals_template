@@ -5,6 +5,7 @@ import EulerFormula from './chapter1/EulerFormula';
 import IntegrationFormula from './IntegrationFormula';
 import TrigoFormula from './TrigoFormula';
 import FourierSeries from './chapter2/FourierSeries'
+import FourierTransform from './chapter3/FourierTransform';
 class Formula extends Component {
     render() {
         return(
@@ -14,6 +15,7 @@ class Formula extends Component {
                     <Route path='/TH/Formula/Integration' component={IntegrationFormula} />
                     <Route path='/TH/Formula/Trigo' component={TrigoFormula} />
                     <Route path='/TH/Formula/FourierSeries' component={FourierSeries}/>
+                    <Route path='/TH/Formula/FourierTransform' component={FourierTransform}/>
                 </Switch>
 
             </div>
