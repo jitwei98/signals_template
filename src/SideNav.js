@@ -95,10 +95,13 @@ class SideNav extends Component {
           <Collapse isOpen={!this.state.collapse2}>
               <Nav pills vertical>
                   <NavItem>
-                      <NavLink tag={RRNavLink} to="/TH/Formula/Euler">Euler</NavLink>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter1/lecture">Lecture</NavLink>
                   </NavItem>
                   <NavItem>
-                      <NavLink tag={RRNavLink} to="#">Type of wave</NavLink>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter1/Geogebra/TimeScalingGraph">Time Scaling Graph</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink tag={RRNavLink} to="/TH/Chapter1/Geogebra/EulerFormulaGraph">Euler Formula Graph</NavLink>
                   </NavItem>
               </Nav>
           </Collapse>
