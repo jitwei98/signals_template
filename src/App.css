@@ -24,6 +24,8 @@
 
 .container-fluid {
   padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 15%;
 }
 
 @keyframes App-logo-spin {

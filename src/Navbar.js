@@ -24,7 +24,7 @@ class BootstrapNavbar extends React.Component {
   render() {
     return (
       <div className="navbar-container">
-        <Navbar color="danger" dark>
+        <Navbar id="navbar-top" color="danger" dark>
           <NavbarBrand href="/" className="mr-auto">Signals and System</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
